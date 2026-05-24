@@ -1,0 +1,200 @@
+# Agentic Market Intelligence
+
+Build an AI analyst that monitors competitor/product launches and answers questions like: Which competitor products are gaining traction, what claims are they making, and what should we do next?
+# Agentic Market Intelligence Platform
+
+Production-style AI data science platform that combines **agentic workflows, RAG, forecasting, sentiment analysis, topic modeling, and MLOps** to generate source-grounded competitive intelligence from public market signals.
+
+This project is designed as a portfolio-grade data science system for AI/ML, product analytics, and applied data science roles.
+
+---
+
+## What This System Does
+
+The platform ingests public market signals such as product pages, press releases, customer reviews, competitor claims, and pricing data. It then uses a multi-agent workflow to answer strategic business questions like:
+
+> Which competitor products are gaining traction, what claims are they making, how is customer sentiment shifting, and what should we do next?
+
+---
+
+## Why This Project Matters
+
+Modern data science roles increasingly require more than notebooks. This repo demonstrates the ability to build an end-to-end AI system with:
+
+- Production-grade Python structure
+- Agentic AI workflows
+- Retrieval-Augmented Generation
+- Forecasting and trend detection
+- Sentiment and topic modeling
+- Evaluation and hallucination checks
+- FastAPI service layer
+- Streamlit dashboard
+- Dockerized deployment
+- CI/CD with GitHub Actions
+
+---
+
+## Architecture
+
+```text
+Public Market Sources
+        |
+        v
+Data Ingestion Layer
+        |
+        v
+Cleaning + Normalization
+        |
+        v
+Chunking + Embedding
+        |
+        v
+Vector Store / Search Index
+        |
+        v
+Multi-Agent Intelligence Layer
+        |
+        +--> Research Agent
+        +--> Claims Agent
+        +--> Sentiment Agent
+        +--> Forecast Agent
+        +--> Strategy Agent
+        +--> Evaluator Agent
+        |
+        v
+FastAPI + Streamlit Dashboard
+        |
+        v
+Source-grounded recommendations
+```
+
+---
+
+## Core Agents
+
+| Agent | Purpose |
+|---|---|
+| `ResearchAgent` | Retrieves and summarizes relevant market evidence |
+| `ClaimsAgent` | Extracts product claims, benefits, and positioning |
+| `SentimentAgent` | Scores customer or market sentiment |
+| `ForecastAgent` | Forecasts trend direction from market signals |
+| `StrategyAgent` | Generates business recommendations |
+| `EvaluatorAgent` | Checks grounding, confidence, and hallucination risk |
+
+---
+
+## Example Output
+
+```json
+{
+  "question": "Which competitor claims are gaining traction?",
+  "recommendation": "Prioritize sustainability and sensitive-skin claims in upcoming messaging.",
+  "evidence": [
+    "Competitor A increased mentions of plant-based ingredients.",
+    "Review sentiment improved after packaging relaunch.",
+    "Search interest proxy rose for refillable product formats."
+  ],
+  "confidence": 0.82,
+  "risk_flags": ["limited review sample size"]
+}
+```
+
+---
+
+## Project Structure
+
+```text
+.
+├── app/
+│   ├── api/
+│   │   └── main.py
+│   ├── dashboard/
+│   │   └── streamlit_app.py
+│   └── agents/
+│       ├── base.py
+│       ├── research_agent.py
+│       ├── claims_agent.py
+│       ├── sentiment_agent.py
+│       ├── forecast_agent.py
+│       ├── strategy_agent.py
+│       └── evaluator_agent.py
+├── src/
+│   ├── ingestion/
+│   ├── retrieval/
+│   ├── modeling/
+│   ├── evaluation/
+│   └── utils/
+├── notebooks/
+├── reports/
+├── tests/
+├── .github/workflows/
+├── Dockerfile
+├── docker-compose.yml
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## Quickstart
+
+```bash
+git clone https://github.com/YOUR_USERNAME/agentic-market-intelligence-platform.git
+cd agentic-market-intelligence-platform
+
+python -m venv .venv
+source .venv/bin/activate
+
+pip install -r requirements.txt
+```
+
+Run the API:
+
+```bash
+uvicorn app.api.main:app --reload
+```
+
+Run the dashboard:
+
+```bash
+streamlit run app/dashboard/streamlit_app.py
+```
+
+Run tests:
+
+```bash
+pytest
+```
+
+---
+
+## Roadmap
+
+- [x] Repo architecture
+- [x] Agent interfaces
+- [x] FastAPI service
+- [x] Streamlit dashboard
+- [x] Baseline sentiment model
+- [x] Baseline forecasting model
+- [x] Evaluation scoring
+- [ ] Add real web ingestion
+- [ ] Add vector database persistence
+- [ ] Add MLflow experiment tracking
+- [ ] Deploy API to cloud
+- [ ] Add benchmark report
+
+---
+
+## Skills Demonstrated
+
+**Data Science:** forecasting, sentiment analysis, topic modeling, evaluation design  
+**AI Engineering:** agents, RAG, vector search, LLM evaluation  
+**MLOps:** Docker, CI/CD, testing, modular architecture  
+**Product Analytics:** market signal extraction, business recommendations, confidence scoring  
+**Software Engineering:** FastAPI, Streamlit, clean Python package design  
+
+---
+
+## Portfolio Summary
+
+I built a production-style AI analyst that turns unstructured market signals into measurable product and strategy insights using agentic workflows, retrieval, forecasting, sentiment modeling, and evaluation guardrails.
