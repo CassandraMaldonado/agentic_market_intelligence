@@ -1,17 +1,13 @@
 # Model Card
 
-## Intended Use
-
-Generate source-grounded competitive intelligence from public market signals.
-
 ## Main Capabilities
 
-- Market evidence retrieval
-- Product claim extraction
-- Sentiment scoring
-- Forecasting
-- Business recommendation generation
-- Evaluation and hallucination risk checks
+- Market evidence retrieval.
+- Product claim extraction.
+- Sentiment scoring.
+- Forecasting.
+- Business recommendation generation.
+- Evaluation and hallucination risk checks.
 
 ## Limitations
 
