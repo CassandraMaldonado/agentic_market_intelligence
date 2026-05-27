@@ -1,9 +1,5 @@
 # Model Card
 
-## System
-
-Agentic Market Intelligence Platform
-
 ## Intended Use
 
 Generate source-grounded competitive intelligence from public market signals.
