@@ -13,10 +13,3 @@
 
 - Current version uses deterministic baseline agents.
 - Forecasting should not be interpreted as causal proof.
-
-## Risk Controls
-
-- Evidence lists
-- Confidence score
-- Hallucination risk flag
-- Source grounding score
