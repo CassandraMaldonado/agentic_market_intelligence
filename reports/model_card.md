@@ -11,8 +11,7 @@
 
 ## Limitations
 
-- Current version uses sample data and deterministic baseline agents.
-- Real-world usage requires stronger source validation, robust scraping compliance, and human review.
+- Current version uses deterministic baseline agents.
 - Forecasting should not be interpreted as causal proof.
 
 ## Risk Controls
