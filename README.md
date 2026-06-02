@@ -1,8 +1,6 @@
-# Agentic Market Intelligence Platform
+# Agentic Market Intelligence
 
-Production-style AI data science platform that combines **agentic workflows, RAG, forecasting, sentiment analysis, topic modeling, and MLOps** to generate source-grounded competitive intelligence from public market signals.
-
-This project is designed as a portfolio-grade data science system for AI/ML, product analytics, and applied data science roles.
+A platform that combines **agentic workflows, RAG, forecasting, sentiment analysis, topic modeling, and MLOps** to generate competitive intelligence from public market signals.
 
 ---
 
