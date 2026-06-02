@@ -95,13 +95,13 @@ flowchart TD
 ```text
 .
 ├── api/
-│  └── main.py
+│   └── main.py
 ├── dashboard/
-│  └── streamlit_app.py
+│   └── streamlit_app.py
 └── agents/
 │   ├── base.py
-│       ├── research_agent.py
-│       ├── claims_agent.py
+│   ├── research_agent.py
+│   ├── claims_agent.py
 │       ├── sentiment_agent.py
 │       ├── forecast_agent.py
 │       ├── strategy_agent.py
