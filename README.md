@@ -6,7 +6,7 @@ A platform that combines **agentic workflows, RAG, forecasting, sentiment analys
 
 ## What This System Does
 
-The platform ingests public market signals such as product pages, press releases, customer reviews, competitor claims, and pricing data. It then uses a multi-agent workflow to answer strategic business questions like:
+The platform tales public market signals such as product pages, press releases, customer reviews, competitor claims, and pricing data. It then uses a multi-agent workflow to answer strategic business questions like:
 
 > Which competitor products are gaining traction, what claims are they making, how is customer sentiment shifting, and what should we do next?
 
@@ -14,18 +14,16 @@ The platform ingests public market signals such as product pages, press releases
 
 ## Why This Project Matters
 
-Modern data science roles increasingly require more than notebooks. This repo demonstrates the ability to build an end-to-end AI system with:
+This repo demonstrates the ability to build an end-to-end AI system with:
 
-- Production-grade Python structure
+- Production Python structure
 - Agentic AI workflows
-- Retrieval-Augmented Generation
+- RAG
 - Forecasting and trend detection
 - Sentiment and topic modeling
 - Evaluation and hallucination checks
 - FastAPI service layer
-- Streamlit dashboard
-- Dockerized deployment
-- CI/CD with GitHub Actions
+- Dashboard
 
 ---
 
