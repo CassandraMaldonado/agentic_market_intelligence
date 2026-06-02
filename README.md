@@ -29,6 +29,33 @@ This repo demonstrates the ability to build an end-to-end AI system with:
 
 ## Architecture
 
+```mermaid
+flowchart TD
+    A[Public Market Sources] --> B[Data Ingestion Layer]
+    B --> C[Cleaning & Normalization]
+    C --> D[Chunking & Embedding]
+    D --> E[Vector Store / Search Index]
+
+    E --> F[Multi-Agent Intelligence Layer]
+
+    F --> G[Research Agent]
+    F --> H[Claims Verification Agent]
+    F --> I[Sentiment Analysis Agent]
+    F --> J[Forecasting Agent]
+    F --> K[Strategy Agent]
+    F --> L[Evaluation Agent]
+
+    G --> M[FastAPI Service Layer]
+    H --> M
+    I --> M
+    J --> M
+    K --> M
+    L --> M
+
+    M --> N[Streamlit Dashboard]
+    N --> O[Source-Grounded Insights & Recommendations]
+```
+
 
 ---
 
