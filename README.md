@@ -68,7 +68,7 @@ flowchart TD
 | `SentimentAgent` | Scores customer or market sentiment. |
 | `ForecastAgent` | Forecasts trend direction from market signals. |
 | `StrategyAgent` | Generates business recommendations. |
-| `EvaluatorAgent` | Checks grounding, confidence, and hallucination risk |
+| `EvaluatorAgent` | Checks grounding, confidence and hallucination risk. |
 
 ---
 
