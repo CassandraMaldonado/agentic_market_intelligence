@@ -66,8 +66,8 @@ flowchart TD
 | `ResearchAgent` | Retrieves and summarizes relevant market evidence. |
 | `ClaimsAgent` | Extracts product claims, benefits and positioning. |
 | `SentimentAgent` | Scores customer or market sentiment. |
-| `ForecastAgent` | Forecasts trend direction from market signals |
-| `StrategyAgent` | Generates business recommendations |
+| `ForecastAgent` | Forecasts trend direction from market signals. |
+| `StrategyAgent` | Generates business recommendations. |
 | `EvaluatorAgent` | Checks grounding, confidence, and hallucination risk |
 
 ---
