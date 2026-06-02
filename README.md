@@ -29,37 +29,6 @@ This repo demonstrates the ability to build an end-to-end AI system with:
 
 ## Architecture
 
-```text
-Public Market Sources
-        |
-        v
-Data Ingestion Layer
-        |
-        v
-Cleaning + Normalization
-        |
-        v
-Chunking + Embedding
-        |
-        v
-Vector Store / Search Index
-        |
-        v
-Multi-Agent Intelligence Layer
-        |
-        +--> Research Agent
-        +--> Claims Agent
-        +--> Sentiment Agent
-        +--> Forecast Agent
-        +--> Strategy Agent
-        +--> Evaluator Agent
-        |
-        v
-FastAPI + Streamlit Dashboard
-        |
-        v
-Source-grounded recommendations
-```
 
 ---
 
