@@ -28,7 +28,7 @@ class StrategyAgent(BaseAgent):
             "evidence": evidence,
             "confidence": confidence,
             "next_best_actions": [
-                "Validate claim performance against review-level sentiment.",
+                "Validate claim performance against review level sentiment.",
                 "Track competitor pricing and bundles weekly.",
                 "Add source-level citations before executive reporting.",
             ],
