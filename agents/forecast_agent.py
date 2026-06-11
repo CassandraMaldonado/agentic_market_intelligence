@@ -5,7 +5,7 @@ class ForecastAgent(BaseAgent):
     name = "forecast_agent"
 
     def run(self) -> dict:
-        # Baseline deterministic forecast. Future version can use Prophet, ARIMA, or gradient boosting.
+        # Baseline deterministic forecast.
         historical = [42, 47, 51, 58, 63, 67]
         forecast = [72, 76, 81]
 
