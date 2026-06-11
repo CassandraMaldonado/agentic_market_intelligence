@@ -30,6 +30,6 @@ class StrategyAgent(BaseAgent):
             "next_best_actions": [
                 "Validate claim performance against review level sentiment.",
                 "Track competitor pricing and bundles weekly.",
-                "Add source-level citations before executive reporting.",
+                "Add source level citations before executive reporting.",
             ],
         }
