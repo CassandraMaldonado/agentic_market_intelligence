@@ -11,7 +11,7 @@ from app.agents.evaluator_agent import EvaluatorAgent
 
 app = FastAPI(
     title="Agentic Market Intelligence Platform",
-    description="Source-grounded competitive intelligence using agents, RAG, forecasting, and evaluation.",
+    description="Source competitive intelligence using agents, RAG, forecasting, and evaluation.",
     version="0.1.0",
 )
 
