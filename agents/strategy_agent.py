@@ -10,7 +10,7 @@ class StrategyAgent(BaseAgent):
         sentiment_label = sentiment.get("interpretation", "unknown")
 
         recommendation = (
-            "Prioritize sustainability, refillable packaging, and sensitive-skin messaging. "
+            "Prioritize sustainability, refillable packaging and sensitive skin messaging. "
             "Use value framing carefully because price sensitivity appears present."
         )
 
