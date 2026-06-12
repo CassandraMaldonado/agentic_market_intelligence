@@ -1,6 +1,6 @@
 # Agentic Market Intelligence
 
-A platform that combines **agentic workflows, RAG, forecasting, sentiment analysis, topic modeling, and MLOps** to generate competitive intelligence from public market signals.
+A platform that combines **agentic workflows, RAG, forecasting, sentiment analysis, topic modeling and MLOps** to generate competitive intelligence from public market signals.
 
 ---
 
@@ -8,7 +8,7 @@ A platform that combines **agentic workflows, RAG, forecasting, sentiment analys
 
 The platform tales public market signals such as product pages, press releases, customer reviews, competitor claims, and pricing data. It then uses a multi-agent workflow to answer strategic business questions like:
 
-> Which competitor products are gaining traction, what claims are they making, how is customer sentiment shifting, and what should we do next?
+> Which competitor products are gaining traction, what claims are they making, how is customer sentiment shifting and what should we do next?
 
 ---
 
