@@ -12,21 +12,6 @@ The platform tales public market signals such as product pages, press releases, 
 
 ---
 
-## Why This Project Matters
-
-This repo demonstrates the ability to build an end-to-end AI system with:
-
-- Production Python structure
-- Agentic AI workflows
-- RAG
-- Forecasting and trend detection
-- Sentiment and topic modeling
-- Evaluation and hallucination checks
-- FastAPI service layer
-- Dashboard
-
----
-
 ## Architecture
 
 ```mermaid
