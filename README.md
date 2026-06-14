@@ -74,16 +74,6 @@ flowchart TD
 ```
 ---
 
-## Skills Demonstrated
-
-**Data Science:** forecasting, sentiment analysis, topic modeling, evaluation design  
-**AI Engineering:** agents, RAG, vector search, LLM evaluation  
-**MLOps:** Docker, CI/CD, testing, modular architecture  
-**Product Analytics:** market signal extraction, business recommendations, confidence scoring  
-**Software Engineering:** FastAPI, Streamlit, clean Python package design  
-
----
-
 ## Portfolio Summary
 
-I built a production-style AI analyst that turns unstructured market signals into measurable product and strategy insights using agentic workflows, retrieval, forecasting, sentiment modeling, and evaluation guardrails.
+I built an AI analyst that turns unstructured market signals into measurable product and strategy insights using agentic workflows, retrieval, forecasting, sentiment modeling and evaluation guardrails.
