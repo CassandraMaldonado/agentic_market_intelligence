@@ -75,37 +75,7 @@ flowchart TD
 
 ---
 
----
 
-## Quickstart
-
-```bash
-git clone https://github.com/YOUR_USERNAME/agentic-market-intelligence-platform.git
-cd agentic-market-intelligence-platform
-
-python -m venv .venv
-source .venv/bin/activate
-
-pip install -r requirements.txt
-```
-
-Run the API:
-
-```bash
-uvicorn app.api.main:app --reload
-```
-
-Run the dashboard:
-
-```bash
-streamlit run app/dashboard/streamlit_app.py
-```
-
-Run tests:
-
-```bash
-pytest
-```
 
 ---
 
