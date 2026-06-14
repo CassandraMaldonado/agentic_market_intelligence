@@ -75,38 +75,6 @@ flowchart TD
 
 ---
 
-## Project Structure
-
-```text
-.
-├── api/
-│   └── main.py
-├── dashboard/
-│   └── streamlit_app.py
-└── agents/
-│   ├── base.py
-│   ├── research_agent.py
-│   ├── claims_agent.py
-│       ├── sentiment_agent.py
-│       ├── forecast_agent.py
-│       ├── strategy_agent.py
-│       └── evaluator_agent.py
-├── src/
-│   ├── ingestion/
-│   ├── retrieval/
-│   ├── modeling/
-│   ├── evaluation/
-│   └── utils/
-├── notebooks/
-├── reports/
-├── tests/
-├── .github/workflows/
-├── Dockerfile
-├── docker-compose.yml
-├── requirements.txt
-└── README.md
-```
-
 ---
 
 ## Quickstart
