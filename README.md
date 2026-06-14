@@ -72,28 +72,6 @@ flowchart TD
   "risk_flags": ["limited review sample size"]
 }
 ```
-
----
-
-
-
----
-
-## Roadmap
-
-- [x] Repo architecture
-- [x] Agent interfaces
-- [x] FastAPI service
-- [x] Streamlit dashboard
-- [x] Baseline sentiment model
-- [x] Baseline forecasting model
-- [x] Evaluation scoring
-- [ ] Add real web ingestion
-- [ ] Add vector database persistence
-- [ ] Add MLflow experiment tracking
-- [ ] Deploy API to cloud
-- [ ] Add benchmark report
-
 ---
 
 ## Skills Demonstrated
